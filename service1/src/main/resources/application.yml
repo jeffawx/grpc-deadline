@@ -1,0 +1,11 @@
+grpc:
+  server:
+    port: 8090
+    enable-server-reflection: true
+  client:
+    channels:
+      next:
+        host: localhost
+        port: 8091
+        tls:
+          enabled: false

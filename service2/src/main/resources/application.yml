@@ -1,0 +1,10 @@
+grpc:
+  server:
+    port: 8091
+  client:
+    channels:
+      next:
+        host: localhost
+        port: 8092
+        tls:
+          enabled: false
